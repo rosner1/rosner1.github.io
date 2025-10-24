@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #EAF5DA;
-    color: #344B12;
+    background-color: #F0F4F8;
+    color: #1B2631;
 }
 
 .container {
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #673075;
+    background-color: #3F4E4F;
     padding: 20px 0;
     text-align: center;
     border-radius: 8px;
@@ -22,7 +22,7 @@ header {
 
 header h1 {
     margin: 0;
-    color: #EFDAF5;
+    color: #D9E4E0;
 }
 
 .about-me {
@@ -41,12 +41,12 @@ header h1 {
 }
 
 .skills li {
-    background-color: #673075;
+    background-color: #A5C8D6;
     display: inline-block;
     padding: 5px 10px;
     margin: 5px;
     border-radius: 5px;
-    color: #EFDAF5;
+    color: #1B2631;
 }
 
 .projects ul {
@@ -55,7 +55,7 @@ header h1 {
 
 a {
     margin: 10px;
-    color: #A977B5;
+    color: #A5C8D6;
     text-decoration: underline;
 }
   
