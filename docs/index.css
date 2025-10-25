@@ -7,10 +7,15 @@ body {
 }
 
 .container {
-    max-width: 800px;
-    margin: auto;
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
+    min-height: 100vh;      
+    box-sizing: border-box; 
+
 }
+
 
 header {
     background-color: #3F4E4F;
@@ -40,8 +45,8 @@ header h1 {
 }
 
 .socials img {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border-radius: 8px;
 }
