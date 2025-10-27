@@ -2,16 +2,24 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Me - Jonah Rosner</title>
-  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="experience.html">Experience</a>
+  </nav>
+
   <div class="container">
     <header>
-      <h1>About Me - Jonah Rosner</h1>
+      <h1>About Me</h1>
+      <h2 class="subtitle">Jonah Rosner</h2>
     </header>
 
     <div class="about-me">
@@ -80,32 +88,24 @@
           learning to suggest workouts and foods to add to the users diet.</p>
       </div>
 
-      <div class="project">
-        <a href="https://github.com/rosner1/notes_app" target="_blank" rel="noopener noreferrer">
-          Notes App
+    <section class="socials">
+      <h2>Contact Me</h2>
+      <div class="icons">
+        <a href="https://linkedin.com/in/jonah-rosner" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+          <img src="images/linkedin.png" alt="LinkedIn logo">
         </a>
-        <p>A full stack project using the CRUD methodology to interact with notes stored on a 
-          PostgreSQL database.</p>
-      </div>
-
-      <div class="project">
-        <a href="" target="_blank" rel="noopener noreferrer">
-          Shell
+        <a href="https://github.com/rosner1" target="_blank" rel="noopener noreferrer" title="GitHub">
+          <img src="images/github.png" alt="GitHub logo">
         </a>
-        <p>A UNIX based shell project written in C++ with lex and yacc for parsing. Includes piping, file redirection, 
-          subshells, wildcards, path completion, and line editing.</p>
-      </div>
-
-      <div class="project">
-        <a href="" target="_blank" rel="noopener noreferrer">
-          C Compiler
+        <a href="mailto:jonahrosner88@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
+          <img src="images/email.png" alt="Email logo">
         </a>
-        <p>A basic C compiler built using lex and yacc. Compiles a subset of the C language into x86 assembly, supporting 
-          variables, arithmetic, control flow, and function calls.</p>
       </div>
     </section>
+
+    <footer>
+      <p>My portfolio is still a work in progress — check back soon for updates!</p>
+    </footer>
   </div>
-
 </body>
-
 </html>
