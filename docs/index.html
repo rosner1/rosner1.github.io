@@ -2,149 +2,53 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Me - Jonah Rosner</title>
-  <link rel="stylesheet" href="index.css">
-
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-    <a href="experience.html">Experience</a>
-  </nav>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="experience.html">Experience</a>
+  </nav>
+
   <div class="container">
     <header>
-      <h1>About Me - Jonah Rosner</h1>
+      <h1>About Me</h1>
+      <h2 class="subtitle">Jonah Rosner</h2>
     </header>
 
-    <div class="about-me">
-      <p>Hi there! I'm Jonah, a passionate tech professional with a love for software engineering. I
-        believe in the power of technology to create positive change and bring happiness to people's lives. When I'm not
-        coding, you'll find me reading fantasy novels or rock climbing.</p>
-    </div>
+    <section class="about-me">
+      <p>
+        Hi there! I'm Jonah, a passionate software engineering student who believes in the power of technology to
+        create positive change and bring happiness to people’s lives.  
+        When I’m not coding, you can find me performing with Purdue concert bands and the Gold and Black Sound pep band,
+        rock climbing, reading fantasy and sci-fi novels, or playing sports with my friends.
+      </p>
+    </section>
 
-    <div class="socials">
-      <h2>Contact me!</h2>
-      <a href="https://linkedin.com/in/jonah-rosner" target="_blank" rel="noopener noreferrer">
-        <img src="images/linkedin.png" alt="LinkdIn logo">
-      </a>
-      <a href="https://github.com/rosner1" target="_blank" rel="noopener noreferrer">
-        <img src="images/github.png" alt="Github logo">
-      </a>
-      <a href="mailto:jonahrosner88@gmail.com" target="_blank" rel="noopener noreferrer">
-        <img src="images/email.png" alt="Email logo">
-      </a>
-    </div>
-
-    <section class="experience">
-      <h2>Experience</h2>
-
-      <div class="job">
-        <h3>Group 1001<br><span class="role">Platfrom Engineering Intern</span></h3>
-        <ul>
-          <li>Designed and implemented database schema to track repository migration</li>
-          <li>Utilized Temporal to create workflows with error handling</li>
-          <li>Partnered with interns to integrate Snowflake and SailPoint, reducing provisioning time by over 90%</li>
-          <li>Created and used REST APIs to interact with Windsurf workflows on an MCP server</li>
-          <li>Worked and completed sprint goals with the developer experience team</li>
-        </ul>
-      </div>
-
-      <div class="job">
-        <h3>The Data Mine - Purdue University<br><span class="role">Undergraduate Researcher</span></h3>
-        <ul>
-          <li>Collaborated with Purdue Athletics to predict outcomes based on training data from athletes</li>
-          <li>Trained in Python, SQL, R, Agile, and data management</li>
-          <li>Implemented visual representations of athletes’ physical capabilities</li>
-          <li>Created a model to predict injuries based on exercise, rest, and recovery data</li>
-        </ul>
-      </div>
-
-      <div class="job">
-        <h3>Autonomous Robotics Club at Purdue - Wizard's Chess<br><span class="role">Lead Developer</span></h3>
-        <ul>
-          <li>Desgined and implemented computer vision algorithms to track locations of pieces on a board</li>
-          <li>Created logic behind the overall chess game</li>
-          <li>Used speech recognition software to take in players moves</li>
-        </ul>
+    <section class="socials">
+      <h2>Contact Me</h2>
+      <div class="icons">
+        <a href="https://linkedin.com/in/jonah-rosner" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+          <img src="images/linkedin.png" alt="LinkedIn logo">
+        </a>
+        <a href="https://github.com/rosner1" target="_blank" rel="noopener noreferrer" title="GitHub">
+          <img src="images/github.png" alt="GitHub logo">
+        </a>
+        <a href="mailto:jonahrosner88@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
+          <img src="images/email.png" alt="Email logo">
+        </a>
       </div>
     </section>
 
-
-    <div class="skills">
-      <h2>My Skills</h2>
-      <ul>
-        <li>Java</li>
-        <li>Python</li>
-        <li>C/C++</li>
-        <li>Amazon Web Services</li>
-        <li>Data structures</li>
-        <li>Algorithms</li>
-        <li>Cloud Computing</li>
-        <li>Flask</li>
-        <li>API design</li>
-        <li>Agile</li>
-        <li>SQL</li>
-        <li>Data management</li>
-        <li>Docker</li>
-        <li>x86 Assembly</li>
-        <li>Bash</li>
-        <li>JavaScript</li>
-        <li>R</li>
-        <li>Git</li>
-        <li>Microsoft 365</li>
-      </ul>
-    </div>
-
-    <section class="projects">
-      <h2>My Projects</h2>
-
-      <div class="project">
-        <a href="" target="_blank" rel="noopener noreferrer">
-          multimedia.ai (In Development)
-        </a>
-        <p>A group project that is used for rating and reviewing movies, tv shows, and books. It 
-          includes features such as user authentication, content recommendation, and social sharing.
-        </p>
-      </div>
-
-      <div class="project">
-        <a href="https://catapult.vercel.app/" target="_blank" rel="noopener noreferrer">
-          Train Station
-        </a>
-        <p>A 24 hour hackathon project that takes in information about a person and uses machine 
-          learning to suggest workouts and foods to add to the users diet.</p>
-      </div>
-
-      <div class="project">
-        <a href="https://github.com/rosner1/notes_app" target="_blank" rel="noopener noreferrer">
-          Notes App
-        </a>
-        <p>A full stack project using the CRUD methodology to interact with notes stored on a 
-          PostgreSQL database.</p>
-      </div>
-
-      <div class="project">
-        <a href="" target="_blank" rel="noopener noreferrer">
-          Shell
-        </a>
-        <p>A UNIX based shell project written in C++ with lex and yacc for parsing. Includes piping, file redirection, 
-          subshells, wildcards, path completion, and line editing.</p>
-      </div>
-
-      <div class="project">
-        <a href="" target="_blank" rel="noopener noreferrer">
-          C Compiler
-        </a>
-        <p>A basic C compiler built using lex and yacc. Compiles a subset of the C language into x86 assembly, supporting 
-          variables, arithmetic, control flow, and function calls.</p>
-      </div>
-    </section>
+    <footer>
+      <p>My portfolio is still a work in progress — check back soon for updates!</p>
+    </footer>
   </div>
-
 </body>
-
 </html>

@@ -1,14 +1,28 @@
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  color: #1b2631;
+}
+
 nav {
-  margin-top: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 nav a {
   color: #2b6cb0;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 1rem;
   transition: color 0.2s ease;
 }
 
@@ -17,12 +31,69 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.container {
-    width: 90vw;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    min-height: 100vh;      
-    box-sizing: border-box; 
+nav a.active {
+  border-bottom: 2px solid #1a4d8f;
+}
 
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.experience h2 {
+  font-size: 2rem;
+  color: #1a365d;
+  border-bottom: 3px solid #2b6cb0;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+
+.job {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.job:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.job h3 {
+  margin-top: 0;
+  font-size: 1.3rem;
+  color: #2d3748;
+}
+
+.role {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2b6cb0;
+}
+
+.job ul {
+  margin-top: 15px;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.job li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.job {
+  opacity: 0;
+  animation: fadeIn 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
 }
