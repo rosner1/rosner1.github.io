@@ -1,0 +1,28 @@
+nav {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #2b6cb0;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #1a4d8f;
+  text-decoration: underline;
+}
+
+.container {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;      
+    box-sizing: border-box; 
+
+}
